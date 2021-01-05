@@ -112,7 +112,6 @@
     del dict01['gender']
     print(type(dict01),dict01)
     print(dict01.pop('birth'),dict01)
-    
     # 전체요소 삭제
     dict01.clear()
     print(dict01)
