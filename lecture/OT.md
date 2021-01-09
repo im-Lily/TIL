@@ -34,14 +34,15 @@
     - 변수
     - 함수
     - 생성자
-  - python data type
-    - Numeric
+  - ##### python data type
+    
+    - Numeric(int, float)
     - Sequence(list, tuple, range)
     - Text Sequence(str)
     - Mapping(dict)
     - Set(set)
-    - Bool(True, False, not, and, or (논리), &, |, ~ (비교))
-
+  - Bool(True, False, not, and, or (논리), &, |, ~ (비교))
+  
 - ##### 오늘 배운 것 중에서 중요한 것!!
 
   - list[]와 tuple()
