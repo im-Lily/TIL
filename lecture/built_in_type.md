@@ -11,16 +11,19 @@
 
   - list, dict, tuple, set, input
 
-- #### 문자형(str) - Text Sequence 중요해!
-	- list, tuple, range
+- #### sequence type
+  - list, tuple, range
+  - str : text sequence
   - 연속이며 인덱싱과 슬라이싱이 가능함
     - indexing 
-    - slicing : 범위지정
+  - slicing : 범위지정
   
 - #### dir() : 사용가능한 내장함수 출력
+	
+	- capitalize() : 단어의 앞글자 대문자로 변경
 	- replace(oldchar, newchar) : 문자치환
 	- split() : 문자열 쪼개는 함수
-		- return 형식은 list -> 인덱싱, 슬라이싱 가능
+	  - return 형식은 list -> 인덱싱, 슬라이싱 가능
 	- strip(), rstrip(), lstrip() : 문자열 공백 제거 함수
 	- upper(),  lower() : 대,소문자 변환함수
 	- endswith()
