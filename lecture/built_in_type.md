@@ -40,7 +40,7 @@
 		- extend는 값으로 추가됨
 		- 따라서 둘의 결과 상이함
 		- insert는 특정 위치에 요소 추가 가능
-	- pop() : 기존 리스트에서 요소를 가져오고 삭제 조심해!
+	- pop() , remove() : 요소 삭제
 		- 마지막에 위치한 요소부터 차례대로 삭제,, 인덱스 사용하여 제거 가능
 	- max(), min(), sum() : 최대, 최소, 총합
 	
@@ -81,22 +81,27 @@
   - ```python
     # dict의 value 출력
     print(dict01['address'])
-    ```
-
+    print(dict01.get('name'))
+```
+    
   - ``` python
     # dict함수를 이용하여 여러 개의 튜플() 이용하여 리스트[] 타입으로 만들었음
     dict02 = dict([('name','eun'),('age',49),('adress','incheon')])
-    ```
-
+  ```
+  
   - ```python
     # dict_keys, dict_values, dict_items
     # 리스트처럼 보이지만 리스트가 아님!
     # 조작하기 위해서는 casting함수 이용
+    
+    # key 출력
     print('dict_keys - ', dict01.keys(),type(dict01.keys()),type(list(dict01.keys())))
-    print('dict_values - ', dict01.values(),type(dict01.values()),type(list(dict01.values())))
+  # value 출력
+  print('dict_values - ', dict01.values(),type(dict01.values()),type(list(dict01.values())))
+    # key-value 출력
     print('dict_items - ', dict01.items(),type(dict01.items()),type(list(dict01.items())))
     ```
-
+    
   - ````python
     # looping
     for key in dict01.keys() :
@@ -104,24 +109,23 @@
        #print('key : {} , value : {}'.format(key,dict01[key]))
     
     for value in dict01.values():
-        print('value : {}'.format(value))
+      print('value : {}'.format(value))
     
     for (key, value) in dict01.items() :
         print('key : {} , value : {}'.format(key, value))
     ````
-
+  
   - ``` python
     # 삭제 pop(), del
     del dict01['gender']
     print(type(dict01),dict01)
-    print(dict01.pop('birth'),dict01)
+  print(dict01.pop('birth'),dict01)
     # 전체요소 삭제
-    dict01.clear()
+  dict01.clear()
     print(dict01)
-    ```
-
-    
-
+  ```
+  
+  
   
 
   
@@ -139,8 +143,9 @@
   
 
   
-
   
-
+  
+  
+  
   
 
