@@ -1,0 +1,26 @@
+- full-stack (front - back)
+  - front end
+    - html(구조)
+    - js(동작) -> jQuery
+    - css(표현)
+  - back end
+    - java(Spring) - MVC
+    - python(Flask, Django) -> MVT
+    - framework(MVC Pattern, MVT)
+    - Presentation - Business  - Persistence(DB관련 작업)
+- DataBase
+  - 정형(SQL) -> table(2차원) -> Oracle, MySQL, MariaDB
+  - 비정형(NO-SQL) -> (key, value) -> MongoDB
+- jdk 설치 후 
+  - JAVA HOME , PATH 설정
+  - cmd -> javac, java 로 제대로 설치되었는지 확인
+- orale 설치 
+  - pw : 1234567890
+  - cmd -> sqlplus / as sysdba => SQL 명령프롬프트 뜨는지 확인
+  - SQL>conn hr/hr
+  - SQL>exit
+  - SQL>sqlplus hr/hr -> 게스트계정
+- RDBMS
+  - 기본키 : 중복, NULL 허용x
+  - 외래키 : 중복, NULL 허용o
+  - DML / DDL / TCL
