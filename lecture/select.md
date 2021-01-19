@@ -1,0 +1,19 @@
+- ### SELECT
+
+  - ​	Function
+    - 단일 행 함수 N -> N
+    - 그룹 함수 N -> 1개 OR 1개 이상
+  - 문자열 함수
+    - CHAR -> CHAR
+      - PAD / TRIM / SUBSTR
+    - CHAR -> NUMBER
+      - INSTR, LENGTH
+    - NUMBER
+      - ROUND, TRUNC
+    - DATE -> DATE
+      - ADD_MONTHS, SYSDATE
+    - DATE -> NUMBER 
+      - MONTHS_BETWEEN
+    - ANY -> ANY 
+      - TO_CHAR / TO_DATE / TO_NUMBER
+      - NVL / DECODE
