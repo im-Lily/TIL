@@ -1,0 +1,20 @@
+- ### Select 
+
+  - ORDER BY 절에 컬럼의 별칭이나 인덱스 부여가능 / GROUP BY 는 안됨!
+    - WHERE
+      - 행에 대한 제한 -> 그룹 함수 사용불가
+    - GROUP BY 
+      - SELECT에 컬럼에 대한 그룹함수 사용하려면 GROUP BY 절에 동일한 컬럼명이 존재해야함
+      - 그룹(집계)함수 : SUM, AVG, MIN, MAX, COUNT
+    - HAVING
+      - 그룹에 대한 조건
+  - JOIN(ANSI 표준) -> USING, ON
+    - INNER JOIN : 조건 만족하는 행 출력
+      - JOIN 테이블명 ON : 조건 기술 가능, 동일한 컬럼이 존재하지 않는 테이블에 대해서 사용가능
+      - JOIN 테이블명 USING : 부모의 기본키와 지식의 외래키의 컬럼명이 동일할 때 사용
+        - 동일 컬럼이 존재하기 때문에 테이블 별칭 필요
+    - OUTER JOIN : 조건을 만족하지 않은 행도 출력
+      - LEFT JOIN : JOIN 을 기준으로 왼쪽에 있는 테이블의 모든 행 출력
+      - RIGHT JOIN : JOIN 을 기준으로 오른쪽에 있는 테이블의 모든 행 출력
+      - FULL JOIN : 모든 테이블 출력
+    - 재귀조인 - 헷갈림!
