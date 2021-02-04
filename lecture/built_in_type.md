@@ -82,13 +82,14 @@
     # dict의 value 출력
     print(dict01['address'])
     print(dict01.get('name'))
+    ```
 ```
     
   - ``` python
     # dict함수를 이용하여 여러 개의 튜플() 이용하여 리스트[] 타입으로 만들었음
     dict02 = dict([('name','eun'),('age',49),('adress','incheon')])
-  ```
-  
+```
+
   - ```python
     # dict_keys, dict_values, dict_items
     # 리스트처럼 보이지만 리스트가 아님!
@@ -96,12 +97,15 @@
     
     # key 출력
     print('dict_keys - ', dict01.keys(),type(dict01.keys()),type(list(dict01.keys())))
+    ```
   # value 출력
   print('dict_values - ', dict01.values(),type(dict01.values()),type(list(dict01.values())))
     # key-value 출력
-    print('dict_items - ', dict01.items(),type(dict01.items()),type(list(dict01.items())))
+​    print('dict_items - ', dict01.items(),type(dict01.items()),type(list(dict01.items())))
     ```
     
+    ```
+
   - ````python
     # looping
     for key in dict01.keys() :
@@ -119,33 +123,9 @@
     # 삭제 pop(), del
     del dict01['gender']
     print(type(dict01),dict01)
-  print(dict01.pop('birth'),dict01)
+    print(dict01.pop('birth'),dict01)
     # 전체요소 삭제
-  dict01.clear()
+    dict01.clear()
     print(dict01)
-  ```
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-  
-  
-  
-  
+    ```
 
