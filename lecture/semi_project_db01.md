@@ -12,7 +12,7 @@
 
   - ER 다이어그램
 
-    ![Untitled Diagram](C:\Users\jeong\Downloads\Untitled Diagram.jpg)
+    ![ERD01](semi_project_db01.assets/ERD01.jpg)
 
 - 이슈
   - 현재 내 위치 파악 -> geolocation api 이용
@@ -22,7 +22,7 @@
   - 1개의 회원 ID에 여러 개의 차종이 존재할 경우
     - 2차 정규화 or 차량번호
   - ERD 수정
-  - ![3차 회의 후 1차 수정](semi_project_db01.assets/3차 회의 후 1차 수정.jpg)
+  - ![ERD02](semi_project_db01.assets/ERD02.jpg)
   - 픽스 데이터와 실시간 데이터 구분하여 테이블 생성
   - 데이터 정보 문서화 할 것!
   - 추가+) 충전기 상태와 종류 테이블 생성
