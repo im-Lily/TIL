@@ -21,8 +21,7 @@
     - 1차 목표 달성 후 추후에 고민
   - 1개의 회원 ID에 여러 개의 차종이 존재할 경우
     - 2차 정규화 or 차량번호
-  - ERD 수정
-  - ![ERD02](semi_project_db01.assets/ERD02.jpg)
+  - ERD 수정![ERD02](semi_project_db01.assets/ERD02.jpg)
   - 픽스 데이터와 실시간 데이터 구분하여 테이블 생성
   - 데이터 정보 문서화 할 것!
   - 추가+) 충전기 상태와 종류 테이블 생성
