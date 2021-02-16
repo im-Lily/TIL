@@ -29,3 +29,17 @@
   - https://wonpaper.tistory.com/56
 - 인포윈도우 표시
   - https://gdtbgl93.tistory.com/83
+- 이슈)  query 부분 현재위치 변경, 인포윈도우 undefined, 마커 클릭 시 내 위치 사라짐
+  - query 부분 현재위치 변경
+    - global 변수 사용
+  - 인포윈도우 undefined
+    - 오타
+  - 마커 클릭 시 내 위치 사라짐
+    - 함수 건들여야함(난이도 상)
+    - 원 상태로 복구
+  - 혼잡도에 따른 마커색상 상이하게 표시
+    - marker.png : https://stackoverflow.com/questions/7095574/google-maps-api-3-custom-marker-color-for-default-dot-marker
+    - https://stackoverflow.com/questions/50660061/change-marker-in-map
+
+- 발표자료 참고
+  - https://github.com/nero96in/coronamap_deploy
