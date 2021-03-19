@@ -1,0 +1,38 @@
+- 프로젝트 계획 시 고려해야 할 것
+  - 소프트웨어 아키텍처 설계 : 전체 시스템 및 서브시스템
+  - 인터페이스 설계 : 서브시스템 사이의 인터페이스 설계
+  - 자료 저장소 설계 : 파일 또는 데이터베이스
+  - 모듈 설계 : 알고리즘
+  - 사용자 인터페이스 설계 : 메뉴 또는 입력양식, 출력화면
+- 클라우드 서비스	
+  - 구름IDE : 무료로 클라우드 개발환경 구축, 협업가능
+    - 가격에 따라 사용가능한 서비스 상이함
+    - 지원 소프트웨어 : c/c++/python/django/tensorflow/java/html/react ...
+    - os(파이썬의 경우 우분투 18.04 LTS / 16.04 LTS) 선택 및 mysql, mongodb 설치 가능
+    - https://jaspers.tistory.com/entry/%EA%B5%AC%EB%A6%84IDE%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EB%AC%B4%EB%A3%8C%EB%A1%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
+  - AWS / ms Azure / GCP
+    - AWS(아마존) : 보안, 모니터링, 안정성, 플랫폼 구성에 뛰어남
+    - Azure(MS) 
+    - GCP(구글) : 분석 및 머신러닝에 특화
+  - 도커 : 하나의 서버에서 각각 다른 환경의 컨테이너 설정가능, 독립적
+- AWS를 기반으로 진행되는 프로젝트
+  - 서버 
+    - lambda : 서버리스
+      - 요청이 있을 때에만 함수실행하기 때문에 비용저렴
+      - 서버 관리하고 설정하는데 시간 절약 시 사용
+      - 장애 발생 시 동작에 대한 설정 가능하며 연동에 있어서 효율적
+    - EC2 : 가상서버 제공
+      - lambda와 EC2 서버를 하이브리드 형태로 사용가능
+  - 데이터 수집 
+  - 데이터 저장 
+    - Redshift(정형) : SQL 활용하여 EMR, Athena, SageMaker 분석 수행가능
+    - DynamoDB(비정형) : NOSQL, 서버리스
+  - 데이터 분석
+    - EMR : 머신러닝 /  대용량 데이터 처리 용이, 비용 저렴
+    - Kinesis : 실시간 처리, 서버리스
+  - 시각화
+    - QuickSight : 서버리스, 머신러닝 모델에 대한 예측 시각화
+    - FineReport : 데이터베이스와 연동가능, 웹 디자인에 적용 가능
+  - SSL 인증문제 해결 -> Let's Encrypt
+    - https://letsencrypt.org/ko/getting-started/
+- 이에 대한 내용 구체화 필요 / EC2 공부필요
