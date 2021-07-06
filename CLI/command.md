@@ -27,6 +27,14 @@ cd .. => 상위폴더로 이동
 cd git => git 폴더로 이동
 ```
 
+## mkdir
+
+- make directory 
+
+```
+mkdir dirName => 현재 위치에서 새로운 디렉토리 생성
+```
+
 ## touch
 
 - 파일 생성
